@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw dataset - do not upload
+data/diabetes_prediction_dataset.csv
+
+# Saved trained models
+models/*.joblib
+models/*.pkl
+
+# VS Code
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
